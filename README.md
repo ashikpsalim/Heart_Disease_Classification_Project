@@ -12,7 +12,7 @@ This GitHub repository contains code and documentation for an end-to-end heart d
 2. K-Nearest Neighbors Classification
 3. RandomForest Classification
 **Selected Model**: Logistic Regression was chosen as the final model due to its performance and interpretability.
-**Key Steps**
+Key Steps
 ---------
 
 **Data Preprocessing**: The dataset was cleaned and preprocessed to handle missing values and prepare features for modeling.

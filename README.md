@@ -24,13 +24,14 @@ Key Steps
 7. Model Persistence: The final Logistic Regression model was saved using pickle for future use.
 8. Deployment: The trained model was deployed as a local web application using Streamlit.
 
-Results
+Result
+----------
+The Logistic Regression model achieved an accuracy of approximately 88.52%. Various evaluation metrics demonstrated the effectiveness of the model in predicting heart disease probabilities.
+
+Files
 ----------
 
-The Logistic Regression model achieved an accuracy of approximately 88.52%. Various evaluation metrics demonstrated the effectiveness of the model in predicting heart disease probabilities.
-Files
--------
-heart-disease: containing the dataset.
-End-to-End-heart-disease-classification: Jupyter notebooks detailing data preprocessing, EDA, and model building.
-trained_model.sav: Saved Logistic Regression model using pickle.
-Heart_Disease_Prediction Web_App: Files for deploying the model as a Streamlit web application.
+->heart-disease: containing the dataset.
+->End-to-End-heart-disease-classification: Jupyter notebooks detailing data preprocessing, EDA, and model building.
+->trained_model.sav: Saved Logistic Regression model using pickle.
+->Heart_Disease_Prediction Web_App: Files for deploying the model as a Streamlit web application.

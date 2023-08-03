@@ -4,25 +4,25 @@ This GitHub repository contains code and documentation for an end-to-end heart d
 Project Overview
 ---------------
 
-**Dataset**: Heart Disease Classification Dataset from Kaggle.
-**Objective**: Predict the probability of heart disease in patients.
-**Approach**: The project involves data preprocessing, exploratory data analysis, model selection, hyperparameter tuning, evaluation, and deployment.
-**Models Explored**: Three models were tried out:
-1. Logistic Regression
-2. K-Nearest Neighbors Classification
-3. RandomForest Classification
+1. **Dataset**: Heart Disease Classification Dataset from Kaggle.
+2. **Objective**: Predict the probability of heart disease in patients.
+3. **Approach**: The project involves data preprocessing, exploratory data analysis, model selection, hyperparameter tuning, evaluation, and deployment.
+4. **Models Explored**: Three models were tried out:
+i. Logistic Regression
+ii. K-Nearest Neighbors Classification
+iii. RandomForest Classification
 **Selected Model**: Logistic Regression was chosen as the final model due to its performance and interpretability.
 Key Steps
 ---------
 
-1. Data Preprocessing: The dataset was cleaned and preprocessed to handle missing values and prepare features for modeling.
-2. Exploratory Data Analysis (EDA): An exploratory analysis of the dataset was performed to gain insights into the distribution and relationships of features.
-3. Modeling: Three different models were implemented and evaluated for prediction. Logistic Regression showed promising results.
-4. Hyperparameter Tuning: GridSearchCV was used to tune hyperparameters for the Logistic Regression model.
-5. Evaluation Techniques: Various evaluation techniques including ROC and AUC curves, confusion matrix, and cross-validation were employed to assess model performance.
-6. Feature Importance: Feature importance analysis revealed that features 'cp', 'restecg', and 'slope' had the highest impact on the model.
-7. Model Persistence: The final Logistic Regression model was saved using pickle for future use.
-8. Deployment: The trained model was deployed as a local web application using Streamlit.
+1. **Data Preprocessing**: The dataset was cleaned and preprocessed to handle missing values and prepare features for modeling.
+2. **Exploratory Data Analysis (EDA**): An exploratory analysis of the dataset was performed to gain insights into the distribution and relationships of features.
+3. **Modeling**: Three different models were implemented and evaluated for prediction. Logistic Regression showed promising results.
+4. **Hyperparameter Tuning**: GridSearchCV was used to tune hyperparameters for the Logistic Regression model.
+5. **Evaluation Techniques**: Various evaluation techniques including ROC and AUC curves, confusion matrix, and cross-validation were employed to assess model performance.
+6.**Feature Importance**: Feature importance analysis revealed that features 'cp', 'restecg', and 'slope' had the highest impact on the model.
+7. **Model Persistence**: The final Logistic Regression model was saved using pickle for future use.
+8. **Deployment**: The trained model was deployed as a local web application using Streamlit.
 
 Result
 ----------
@@ -31,7 +31,7 @@ The Logistic Regression model achieved an accuracy of approximately 88.52%. Vari
 Files
 ----------
 
-->heart-disease: containing the dataset.
-->End-to-End-heart-disease-classification: Jupyter notebooks detailing data preprocessing, EDA, and model building.
-->trained_model.sav: Saved Logistic Regression model using pickle.
-->Heart_Disease_Prediction Web_App: Files for deploying the model as a Streamlit web application.
+1. heart-disease: containing the dataset.
+2. End-to-End-heart-disease-classification: Jupyter notebooks detailing data preprocessing, EDA, and model building.
+3. trained_model.sav: Saved Logistic Regression model using pickle.
+4. Heart_Disease_Prediction Web_App: Files for deploying the model as a Streamlit web application.

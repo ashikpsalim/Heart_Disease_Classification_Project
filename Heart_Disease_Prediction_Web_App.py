@@ -3,7 +3,7 @@ import pickle
 import streamlit as st
 
 # loading the saved model
-load_model = pickle.load(open("C:/Users/user/Complete ML & DS/Classification/trained_model.sav", 'rb'))
+load_model = pickle.load(open("trained_model.sav", 'rb'))
 
 # function for prediction
 def heart_disease_prediction(input_data):
